@@ -16,13 +16,13 @@ jobs:
       - name: Set up Node.js  
         uses: actions/setup-node@v2  
         with:  
-          node-version: '14' # 指定你项目所需的 Node.js 版本  
+          node-version: '14' 
   
       - name: Install dependencies  
         run: npm install  
   
       - name: Build  
-        run: npm run build # 假设你的项目有一个构建脚本  
+        run: npm run build
   
       - name: Run tests  
-        run: npm test # 假设你的项目有测试脚本  
+        run: npm test 
